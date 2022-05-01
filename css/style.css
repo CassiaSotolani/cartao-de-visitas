@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+
+.container {
+    height: 100vh;
+    background-color: #7F95D1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__fundo {
+    background-image: url(../img/backgorund.png);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+}
+
+.container__titulo {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.container__link {
+    display: flex;
+    align-items: center;
+}
+
+.container__paragrafo {
+    margin-left: 1em;
+}
