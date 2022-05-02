@@ -41,3 +41,11 @@
 .container__paragrafo {
     margin-left: 1em;
 }
+
+@media (max-width: 500px) {
+    .container__fundo {
+        margin: 1em;
+        background-position: top;
+    }
+
+}
